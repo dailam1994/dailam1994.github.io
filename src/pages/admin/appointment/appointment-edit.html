@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns=“http://www.w3.org/1999/xhtml”>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>AmourAila - Admin - Appointment - Edit</title>
+        <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
+        <link rel="stylesheet" href="../../../../assets/css/Footer-Basic.css">
+        <link rel="stylesheet" href="../../../../assets/css/styles.css">
+        <script src="../../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
+        <script src="../../../components/admin/header.js" defer></script>
+        <script src="../../../components/admin/footer.js" defer></script>
+        <script src="./appointment.js" defer></script>
+        <script src="../display_mode.js" defer></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <h1 style="margin: 10px;">Appointments - EDIT</h1>
+        <div class="container">
+            <form style="margin-top: 20px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Date</h1>
+                <input class="form-control" type="date" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Start Time</h1>
+                <input class="form-control" type="time" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Finish Time</h1>
+                <input class="form-control" type="time" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Client</h1>
+                <input class="form-control" type="text" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Services</h1>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="formCheck-1">
+                    <label class="form-check-label" for="formCheck-1">Service 1</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="formCheck-4">
+                    <label class="form-check-label" for="formCheck-1">Service 2</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="formCheck-3">
+                    <label class="form-check-label" for="formCheck-1">Service 3</label>
+                </div>
+                <div class="form-check" style="margin-bottom: 10px;">
+                    <input class="form-check-input" type="checkbox" id="formCheck-2">
+                    <label class="form-check-label" for="formCheck-1">Service 4</label>
+                </div>
+                <div class="row d-flex m-3">
+                    <div class="col d-flex justify-content-end">
+                        <button class="btn btn-primary text-center" 
+                                type="button" 
+                                style="width: 100px;background: var(--bs-orange);border-color: rgb(0,0,0);"
+                                onclick="editAppointment()">
+                            <a style="color: #FFFFFF; text-decoration: none;">Edit</a>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>

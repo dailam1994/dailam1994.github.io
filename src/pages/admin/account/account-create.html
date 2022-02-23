@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns=“http://www.w3.org/1999/xhtml”>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>AmourAila - Admin - Account - Create</title>
+        <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
+        <link rel="stylesheet" href="../../../../assets/css/Footer-Basic.css">
+        <link rel="stylesheet" href="../../../../assets/css/styles.css">
+        <script src="../../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
+        <script src="../../../components/admin/header.js" defer></script>
+        <script src="../../../components/admin/footer.js" defer></script>
+        <script src="./account.js" defer></script>
+        <script src="../display_mode.js" defer></script>
+    </head>
+    <body>
+        <div id="header"></div>
+        <h1 style="margin: 10px;">Create Account</h1>
+        <div class="container">
+            <form style="margin-top: 20px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">First Name</h1>
+                <input class="form-control" type="text" style="margin: 0px;margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Last Name</h1>
+                <input class="form-control" type="text" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Date of Birth</h1>
+                <input class="form-control" type="date" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Email</h1>
+                <input class="form-control" type="email" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Username</h1>
+                <input class="form-control" type="text" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Password</h1>
+                <input class="form-control" type="password" style="margin-bottom: 10px;">
+                <h1 style="font-size: 20px;margin: 0px;margin-left: 0px;margin-bottom: 0px;">Confirm Password</h1>
+                <input class="form-control" type="password" style="margin-bottom: 10px;">
+                <div class="row">
+                    <div class="col d-flex justify-content-end">
+                        <button class="btn btn-success" 
+                                type="button" 
+                                style="width: 100px;margin: 10px; border-color: rgb(0,0,0);"
+                                onclick="createAccount()">
+                            <a style="color: #FFFFFF; text-decoration: none;">Create</a>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="footer"></div>
+    </body>
+</html>
