@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" xmlns=“http://www.w3.org/1999/xhtml”>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>AmourAila - Admin - Work Schedule Set</title>
-        <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
-        <link rel="stylesheet" href="../../../../assets/css/Footer-Basic.css">
-        <link rel="stylesheet" href="../../../../assets/css/styles.css">
-        <script src="../../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
-        <script src="../../../components/admin/header.js" defer></script>
-        <script src="../../../components/admin/footer.js" defer></script>
-        <script src="./work-schedule.js" defer></script>
-        <script src="../display_mode.js" defer></script>
-    </head>
-    <body>
-        <div id="header"></div>
-        <h1 style="margin: 10px;">Set Available Timetable</h1>
-        <div class="container">
-            <h1 style="font-size: 18px;">Day | Time</h1>
-            <div class="row" style="margin-bottom: 3px;">
-                <div class="col d-flex justify-content-center align-items-center" style="padding: 0px;">
-                    <h1 style="font-size: 15px;">Start time:</h1>
-                </div>
-                <div class="col d-flex justify-content-center" style="padding: 0px;">
-                    <input class="form-control-lg m-1" type="time" />
-                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>AmourAila - Admin - Work Schedule Set</title>
+    <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../../../../assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="../../../../assets/css/styles.css">
+    <script src="../../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
+    <script src="../../../components/admin/header.js" defer></script>
+    <script src="../../../components/admin/footer.js" defer></script>
+    <script src="./work-schedule.js" defer></script>
+    <script src="../display_mode/display_mode.js" defer></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <h1 style="margin: 10px;">Set Available Timetable</h1>
+    <div class="container">
+        <h1 style="font-size: 18px;">Day | Time</h1>
+        <div class="row" style="margin-bottom: 3px;">
+            <div class="col d-flex justify-content-center align-items-center" style="padding: 0px;">
+                <h1 style="font-size: 15px;">Start time:</h1>
             </div>
-            <div class="row">
-                <div class="col d-flex justify-content-center align-items-center" style="padding: 0px;">
-                    <h1 style="font-size: 15px;">End time:</h1>
-                </div>
-                <div class="col d-flex justify-content-center" style="padding: 0px;">
-                    <input class="form-control-lg m-1" type="time" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="col d-flex justify-content-center" style="padding: 0px;">
-                    <button class="btn btn-success" 
-                            type="button" 
-                            style="margin: 10px;border-style: solid;border-color: rgb(0,0,0);width: 100px;font-weight: bold;"
-                            onclick="confirmSetTime()">
-                        <a style="color: #FFFFFF; text-decoration: none;">Set</a>
-                    </button>
-                </div>
+            <div class="col d-flex justify-content-center" style="padding: 0px;">
+                <input class="form-control-lg m-1" type="time" />
             </div>
         </div>
-        <div id="footer"></div>
-    </body>
+        <div class="row">
+            <div class="col d-flex justify-content-center align-items-center" style="padding: 0px;">
+                <h1 style="font-size: 15px;">End time:</h1>
+            </div>
+            <div class="col d-flex justify-content-center" style="padding: 0px;">
+                <input class="form-control-lg m-1" type="time" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center" style="padding: 0px;">
+                <button class="btn btn-success" type="button"
+                    style="margin: 10px;border-style: solid;border-color: rgb(0,0,0);width: 100px;font-weight: bold;"
+                    onclick="confirmSetTime()">
+                    <a style="color: #FFFFFF; text-decoration: none;">Set</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</body>
+
 </html>

@@ -3,12 +3,12 @@
 // MODAL
 // Function to close the modal
 const closeModal = () => {
-    document.getElementById('modal-1').style.display='none';
+    document.getElementById('modal-1').style.display = 'none';
 }
 
 // Function to open the modal
 const openModal = () => {
-    document.getElementById('modal-1').style.display='block';
+    document.getElementById('modal-1').style.display = 'block';
 }
 
 // Function to save then close the modal
@@ -19,23 +19,23 @@ const saveModalChanges = () => {
 
 // PAGE REDIRECT
 // Function redirect to Edit Page
-const appointmentEditPage = () => {
-    window.location.href = '/src/pages/admin/appointment/appointment-edit.html';
+const appointmentEdit = () => {
+    window.location.href = './appointment-edit.html';
 }
 
 // Function redirect to Edit Page
-const appointmentHistoryPage = () => {
-    window.location.href = '/src/pages/admin/appointment/appointment-history.html';
+const appointmentHistory = () => {
+    window.location.href = './appointment-history.html';
 }
 
 // Function redirect to Edit Page
-const appointmentHistoryUserPage = () => {
-    window.location.href = '/src/pages/admin/appointment/appointment-history-user.html';
+const appointmentHistoryUser = () => {
+    window.location.href = './appointment-history-user.html';
 }
 
 // EDITING
 // Function to edit an appointment
 const editAppointment = () => {
     alert('Edit Appointment Successfully');
-    window.location.href = '/src/pages/admin/appointment/appointment.html';
+    window.location.href = './appointment.html';
 }

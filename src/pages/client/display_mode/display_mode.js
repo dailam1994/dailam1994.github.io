@@ -18,9 +18,9 @@ function darkMode() {
         for (let i of document.querySelectorAll('.modal-dialog')) {
             i.style.color = 'rgb(0,0,0)';
         }
-        
+
     } else {
-        document.body.style.backgroundColor =  "rgb(0,0,0)";
+        document.body.style.backgroundColor = "rgb(0,0,0)";
         sessionStorage.setItem('colour', "rgb(0,0,0)");
     }
 }
@@ -32,7 +32,7 @@ function lightMode() {
         document.body.style.backgroundColor = sessionStorage.getItem('colour');
         document.body.style.color = 'rgb(0,0,0)';
     } else {
-        document.body.style.backgroundColor =  "rgb(255,255,255)";
+        document.body.style.backgroundColor = "rgb(255,255,255)";
         sessionStorage.setItem('colour', "rgb(255,255,255)");
     }
 }

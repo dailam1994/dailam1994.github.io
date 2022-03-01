@@ -68,4 +68,9 @@ Boostrap
             - Header and Login
                 - Additional JS
                     - Function
-            
+(2022-03-01) [12:54]
+- Updated Prototype
+    - Project Folder/File Structure (Update)
+        - ALL
+        - Header and Footer
+            - Background Update

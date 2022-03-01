@@ -3,12 +3,12 @@
 // MODAL
 // Function to close the modal
 const closeModal = () => {
-    document.getElementById('modal-1').style.display='none';
+    document.getElementById('modal-1').style.display = 'none';
 }
 
 // Function to open the modal
 const openModal = () => {
-    document.getElementById('modal-1').style.display='block';
+    document.getElementById('modal-1').style.display = 'block';
 }
 
 // Function to save then close the modal

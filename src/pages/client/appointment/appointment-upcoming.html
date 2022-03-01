@@ -1,118 +1,113 @@
 <!DOCTYPE html>
 <html lang="en" xmlns=“http://www.w3.org/1999/xhtml”>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>AmourAila - Client - Appointment - Upcoming</title>
-        <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
-        <link rel="stylesheet" href="../../../../assets/css/Footer-Basic.css">
-        <link rel="stylesheet" href="../../../../assets/css/styles.css">
-        <script src="../../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
-        <script src="../../../components/client/header.js" defer></script>
-        <script src="../../../components/client/footer.js" defer></script>
-        <script src="./appointment.js" defer></script>
-        <script src="../js/display_mode.js" defer></script>
-    </head>
-    <body>
-        <div id="header"></div>
-        <h1 style="margin: 10px;">Appointments</h1>
-        <div class="row" style="margin: 0px 5px;;">
-            <div class="col d-flex justify-content-center" style="padding: 0px;">
-                <button class="btn btn-primary" 
-                        type="button" 
-                        style="width: 100px;background: #790604;border-style: solid;border-color: rgb(0,0,0);"
-                        onclick="appointmentUpcoming()">
-                    <a style="color: #FFFFFF; text-decoration: none;">Upcoming</a>
-                </button>
-            </div>
-            <div class="col d-flex justify-content-center" style="padding: 0px;">
-                <button class="btn btn-primary" 
-                        type="button" 
-                        style="width: 100px;background: #790604;border-style: solid;border-color: rgb(0,0,0);"
-                        onclick="appointmentHistory()">
-                    <a style="color: #FFFFFF; text-decoration: none;">History</a>
-                </button>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>AmourAila - Client - Appointment - Upcoming</title>
+    <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../../../../assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="../../../../assets/css/styles.css">
+    <script src="../../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
+    <script src="../../../components/client/header.js" defer></script>
+    <script src="../../../components/client/footer.js" defer></script>
+    <script src="./appointment.js" defer></script>
+    <script src="../display_mode/display_mode.js" defer></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <h1 style="margin: 10px;">Appointments</h1>
+    <div class="row" style="margin: 0px 5px;;">
+        <div class="col d-flex justify-content-center" style="padding: 0px;">
+            <button class="btn btn-primary" type="button"
+                style="width: 100px;background: #790604;border-style: solid;border-color: rgb(0,0,0);"
+                onclick="appointmentUpcoming()">
+                <a style="color: #FFFFFF; text-decoration: none;">Upcoming</a>
+            </button>
         </div>
-        <div class="container" style="margin: 20px 0px;">
-            <h1 style="font-size: 23px;">Upcoming</h1>
-            <div class="accordion" role="tablist" id="accordion-1">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab">
-                        <button class="accordion-button" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#accordion-1 .item-1" 
-                                aria-expanded="true" 
-                                aria-controls="accordion-1 .item-1">
-                            <strong>Monday 07/02</strong>
-                        </button>
-                    </h2>
-                    <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <div class="row" style="margin: 3px;border-left-style: solid;border-left-color: rgb(50,53,101);">
-                                <div class="col" style="padding: 10px;">
-                                    <h1>9:00AM</h1>
-                                    <h1 style="font-size: 18px;">Services</h1>
-                                    <ul>
-                                        <li style="font-size: 15px;">Service 2</li>
-                                    </ul>
-                                </div>
+        <div class="col d-flex justify-content-center" style="padding: 0px;">
+            <button class="btn btn-primary" type="button"
+                style="width: 100px;background: #790604;border-style: solid;border-color: rgb(0,0,0);"
+                onclick="appointmentHistory()">
+                <a style="color: #FFFFFF; text-decoration: none;">History</a>
+            </button>
+        </div>
+    </div>
+    <div class="container" style="margin: 20px 0px;">
+        <h1 style="font-size: 23px;">Upcoming</h1>
+        <div class="accordion" role="tablist" id="accordion-1">
+            <div class="accordion-item">
+                <h2 class="accordion-header" role="tab">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1"
+                        aria-expanded="true" aria-controls="accordion-1 .item-1">
+                        <strong>Monday 07/02</strong>
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <div class="row"
+                            style="margin: 3px;border-left-style: solid;border-left-color: rgb(50,53,101);">
+                            <div class="col" style="padding: 10px;">
+                                <h1>9:00AM</h1>
+                                <h1 style="font-size: 18px;">Services</h1>
+                                <ul>
+                                    <li style="font-size: 15px;">Service 2</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab">
-                        <button class="accordion-button collapsed" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#accordion-1 .item-2" 
-                                aria-expanded="false" 
-                                aria-controls="accordion-1 .item-2">
-                            <strong>Wednesday 16/02</strong>
-                        </button>
-                    </h2>
-                    <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <div class="row" style="margin: 3px;border-left-style: solid;border-left-color: rgb(50,53,101);">
-                                <div class="col" style="padding: 10px;">
-                                    <h1>11:00AM</h1>
-                                    <h1 style="font-size: 18px;">Services</h1>
-                                    <ul>
-                                        <li style="font-size: 15px;">Service 1</li>
-                                        <li style="font-size: 15px;">Service 3</li>
-                                    </ul>
-                                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" role="tab">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">
+                        <strong>Wednesday 16/02</strong>
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <div class="row"
+                            style="margin: 3px;border-left-style: solid;border-left-color: rgb(50,53,101);">
+                            <div class="col" style="padding: 10px;">
+                                <h1>11:00AM</h1>
+                                <h1 style="font-size: 18px;">Services</h1>
+                                <ul>
+                                    <li style="font-size: 15px;">Service 1</li>
+                                    <li style="font-size: 15px;">Service 3</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab">
-                        <button class="accordion-button collapsed" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#accordion-1 .item-3" 
-                                aria-expanded="false" 
-                                aria-controls="accordion-1 .item-3">
-                            <strong>Monday 21/02</strong>
-                        </button>
-                    </h2>
-                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <div class="row" style="margin: 3px;border-left-style: solid;border-left-color: rgb(50,53,101);">
-                                <div class="col" style="padding: 10px;">
-                                    <h1>3:00PM</h1>
-                                    <h1 style="font-size: 18px;">Services</h1>
-                                    <ul>
-                                        <li style="font-size: 15px;">Service 4</li>
-                                    </ul>
-                                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" role="tab">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">
+                        <strong>Monday 21/02</strong>
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <div class="row"
+                            style="margin: 3px;border-left-style: solid;border-left-color: rgb(50,53,101);">
+                            <div class="col" style="padding: 10px;">
+                                <h1>3:00PM</h1>
+                                <h1 style="font-size: 18px;">Services</h1>
+                                <ul>
+                                    <li style="font-size: 15px;">Service 4</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="footer"></div>
-    </body>
+    </div>
+    <div id="footer"></div>
+</body>
+
 </html>

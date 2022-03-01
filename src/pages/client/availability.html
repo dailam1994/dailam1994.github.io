@@ -1,99 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" xmlns=“http://www.w3.org/1999/xhtml”>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>AmourAila - Client - Availability</title>
-        <link rel="stylesheet" href="../../../assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../../assets/fonts/ionicons.min.css">
-        <link rel="stylesheet" href="../../../assets/css/Footer-Basic.css">
-        <link rel="stylesheet" href="../../../assets/css/styles.css">
-        <script src="../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
-        <script src="../../components/client/header.js" defer></script>
-        <script src="../../components/client/footer.js" defer></script>
-        <script src="./js/display_mode.js" defer></script>
-    </head>
-    <body>
-        <div id="header"></div>
-        <h1 style="margin: 10px;">Weekly Schedules</h1>
-        <div class="container" style="margin: 20px 0px;">
-            <div class="accordion" role="tablist" id="accordion-1">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab">
-                        <button class="accordion-button" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#accordion-1 .item-1" 
-                                aria-expanded="true" 
-                                aria-controls="accordion-1 .item-1">
-                            <strong>Monday 07/02</strong>
-                        </button>
-                    </h2>
-                    <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Time</th>
-                                            <th>Availability</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>8:00AM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr>
-                                            <td>9:00AM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr>
-                                            <td>10:00AM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr>
-                                            <td>11:00AM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>12:00PM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>1:00PM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2:00PM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr>
-                                            <td>3:00PM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr>
-                                            <td>4:00PM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr></tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab">
-                        <button class="accordion-button collapsed" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#accordion-1 .item-2" 
-                                aria-expanded="false" 
-                                aria-controls="accordion-1 .item-2">
-                            <strong>Tuesday 08/02</strong>
-                        </button>
-                    </h2>
-                    <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>AmourAila - Client - Availability</title>
+    <link rel="stylesheet" href="../../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../../../assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+    <script src="../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
+    <script src="../../components/client/header.js" defer></script>
+    <script src="../../components/client/footer.js" defer></script>
+    <script src="./display_mode/display_mode.js" defer></script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <h1 style="margin: 10px;">Weekly Schedules</h1>
+    <div class="container" style="margin: 20px 0px;">
+        <div class="accordion" role="tablist" id="accordion-1">
+            <div class="accordion-item">
+                <h2 class="accordion-header" role="tab">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1"
+                        aria-expanded="true" aria-controls="accordion-1 .item-1">
+                        <strong>Monday 07/02</strong>
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <div class="table-responsive">
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -103,80 +39,138 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>n/A</td>
+                                        <td>8:00AM</td>
                                         <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
                                     </tr>
+                                    <tr>
+                                        <td>9:00AM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00AM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00AM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00PM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1:00PM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2:00PM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3:00PM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4:00PM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr></tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab">
-                        <button class="accordion-button collapsed" 
-                                data-bs-toggle="collapse" 
-                                data-bs-target="#accordion-1 .item-3" 
-                                aria-expanded="false" 
-                                aria-controls="accordion-1 .item-3">
-                            <strong>Wednesday 09/02</strong>
-                        </button>
-                    </h2>
-                    <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
-                        <div class="accordion-body">
-                            <div class="table-responsive">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Time</th>
-                                            <th>Availability</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>8:00AM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>9:00AM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr>
-                                            <td>10:00AM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr>
-                                            <td>11:00AM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>12:00PM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>1:00PM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2:00PM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3:00PM</td>
-                                            <td style="color: var(--bs-success);">Available</td>
-                                        </tr>
-                                        <tr>
-                                            <td>4:00PM</td>
-                                            <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
-                                        </tr>
-                                        <tr></tr>
-                                    </tbody>
-                                </table>
-                            </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" role="tab">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">
+                        <strong>Tuesday 08/02</strong>
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Availability</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>n/A</td>
+                                    <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" role="tab">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                        data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">
+                        <strong>Wednesday 09/02</strong>
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                    <div class="accordion-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Time</th>
+                                        <th>Availability</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>8:00AM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9:00AM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:00AM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00AM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00PM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1:00PM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2:00PM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3:00PM</td>
+                                        <td style="color: var(--bs-success);">Available</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4:00PM</td>
+                                        <td style="color: var(--bs-danger);"><em>Unavailable</em></td>
+                                    </tr>
+                                    <tr></tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="footer"></div>
-    </body>
+    </div>
+    <div id="footer"></div>
+</body>
+
 </html>

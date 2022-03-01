@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns=“http://www.w3.org/1999/xhtml>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>AmourAila - Login</title>
+    <link rel="stylesheet" href="../../../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../../../../assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="../../../../assets/css/styles.css">
+    <script src="../../../../assets/bootstrap/js/bootstrap.min.js" defer></script>
+    <script src="../../../components/header.js" defer></script>
+    <script src="./login.js"></script>
+</head>
+
+<body style="background: rgb(50,53,101);">
+    <div id="header"></div>
+    <section class="login-clean p-4" style="background: rgb(255,255,255);">
+        <form class='mt-5 mb-5 p-5 rounded' method="" style="background: rgb(121,6,4);">
+            <h2 class="visually-hidden">Login Form</h2>
+            <h1 style="color: rgb(255,255,286);text-align: center;">Login</h1>
+            <div class="illustration"></div>
+            <div class="mb-3">
+                <input class="form-control" type="email" name="email" placeholder="Email">
+            </div>
+            <div class="mb-3">
+                <input class="form-control" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary d-block w-100" type="button"
+                    style="background: rgb(50,53,101);border: 1px solid rgb(255,255,255);" onclick="loggedIn()">Log
+                    In</button>
+            </div>
+            <a class="text-center" href="#" style="color: rgb(255,255,255);" onClick="alert('Damm...')">Forgot your
+                email or password?</a>
+        </form>
+        <div class="d-flex flex-row justify-content-evenly">
+            <button class="btn btn-success" type="button" style="width: 150px;" onclick="adminLogin()">
+                <a style="color: #FFFFFF; text-decoration: none;">Login(admin)</a>
+            </button>
+            <button class="btn btn-primary" type="button" style="width: 150px;" onclick="clientLogin()">
+                <a style="color: #FFFFFF; text-decoration: none;">Login(client)</a>
+            </button>
+        </div>
+    </section>
+</body>
+
+</html>

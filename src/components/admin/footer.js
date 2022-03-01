@@ -4,7 +4,7 @@ const adminFooter = document.getElementById('footer');
 
 // Inserting Repeated code to multiple files
 adminFooter.innerHTML = `
-    <footer class="footer-basic" style="background: rgb(50,53,101);">
+    <footer class="footer-basic" style="background: linear-gradient(to left, rgb(74, 80, 181), rgb(50,53,101) 40%);">
         <div class="social">
             <a href="https://www.instagram.com/"><i class="icon ion-social-instagram" style="color: rgb(255,255,255);"></i></a>
             <a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat" style="color: rgb(255,255,255);"></i></a>
